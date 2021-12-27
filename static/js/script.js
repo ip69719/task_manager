@@ -4,6 +4,7 @@
 
 $(document).ready(function () {
     $(".sidenav").sidenav({edge: "right"});
+    $('.collapsible').collapsible();
 });
 
 
@@ -18,3 +19,5 @@ $(document).ready(function () {
 //     let sidenavs = document.querySelectorAll(".sidenav");
 //     let sidenavsInstance = M.Sidenav.init(sidenavs, {edge: "right"});
 // });
+
+
